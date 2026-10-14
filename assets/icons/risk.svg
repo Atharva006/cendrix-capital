@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <rect x="4" y="4" width="56" height="56" rx="8" fill="#10141C" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.3"/>
+  <!-- Inviolable Shield & Risk Boundaries -->
+  <path d="M 32 14 L 46 20 C 46 34 38 44 32 48 C 26 44 18 34 18 20 Z" fill="#0B1424" stroke="#C6A15B" stroke-width="1.8" stroke-linejoin="round"/>
+  <!-- Precision Calibrated Horizon Indicator inside shield -->
+  <line x1="24" y1="28" x2="40" y2="28" stroke="#E2C889" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="28" y1="34" x2="36" y2="34" stroke="#C6A15B" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="32" cy="22" r="2" fill="#E2C889"/>
+</svg>

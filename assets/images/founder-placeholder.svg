@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141E30" />
+      <stop offset="60%" stop-color="#0E1624" />
+      <stop offset="100%" stop-color="#090E17" />
+    </linearGradient>
+    <linearGradient id="goldAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E2B8" />
+      <stop offset="50%" stop-color="#C6A15B" />
+      <stop offset="100%" stop-color="#8E6E2D" />
+    </linearGradient>
+    <pattern id="archGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C6A15B" stroke-width="0.5" stroke-opacity="0.08" />
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="60%">
+      <stop offset="40%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#05080E" stop-opacity="0.7" />
+    </radialGradient>
+  </defs>
+
+  <!-- Deep Background -->
+  <rect width="800" height="1000" fill="url(#cardBg)" />
+  <rect width="800" height="1000" fill="url(#archGrid)" />
+  <rect width="800" height="1000" fill="url(#vignette)" />
+
+  <!-- Outer Hairline Precision Frame -->
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.3" stroke-dasharray="6 4" />
+  <rect x="42" y="42" width="716" height="916" fill="none" stroke="#C6A15B" stroke-width="0.8" stroke-opacity="0.15" />
+
+  <!-- Corner Precision Brackets -->
+  <path d="M 24 50 L 24 24 L 50 24" fill="none" stroke="#C6A15B" stroke-width="2.5" />
+  <path d="M 776 50 L 776 24 L 750 24" fill="none" stroke="#C6A15B" stroke-width="2.5" />
+  <path d="M 24 950 L 24 976 L 50 976" fill="none" stroke="#C6A15B" stroke-width="2.5" />
+  <path d="M 776 950 L 776 976 L 750 976" fill="none" stroke="#C6A15B" stroke-width="2.5" />
+
+  <!-- Coordinate Reference Markers -->
+  <text x="50" y="70" fill="#A1A8B3" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="3" opacity="0.6">REF // LDR-01 • FOUNDER</text>
+  <text x="750" y="70" text-anchor="end" fill="#C6A15B" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="2" opacity="0.8">ASPECT 4:5</text>
+
+  <!-- Central Architectural Emblem & Portrait Slot Placeholder -->
+  <g transform="translate(400, 440)">
+    <!-- Concentric Golden Circles -->
+    <circle cx="0" cy="0" r="140" fill="#0B1424" stroke="#C6A15B" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="8 6" />
+    <circle cx="0" cy="0" r="120" fill="#101826" stroke="#C6A15B" stroke-width="1" stroke-opacity="0.6" />
+    <circle cx="0" cy="0" r="95" fill="#142033" stroke="#C6A15B" stroke-width="1.5" stroke-opacity="0.8" />
+
+    <!-- Stylized Executive Silhouette / Crest Geometry -->
+    <path d="M -40 60 C -40 20 -25 -10 0 -10 C 25 -10 40 20 40 60 Z" fill="#0B1424" stroke="#C6A15B" stroke-width="1.5" stroke-opacity="0.5" />
+    <circle cx="0" cy="-35" r="28" fill="#0B1424" stroke="url(#goldAcc)" stroke-width="2" />
+    
+    <!-- Precision Crosshairs -->
+    <line x1="-155" y1="0" x2="-125" y2="0" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.6" />
+    <line x1="125" y1="0" x2="155" y2="0" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.6" />
+    <line x1="0" y1="-155" x2="0" y2="-125" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.6" />
+    <line x1="0" y1="125" x2="0" y2="155" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.6" />
+  </g>
+
+  <!-- Title & Instructional Typography -->
+  <text x="400" y="650" text-anchor="middle" fill="#F5F5F2" font-family="'Cinzel', 'Times New Roman', serif" font-size="28" font-weight="600" letter-spacing="6">FOUNDER PORTRAIT</text>
+  <line x1="320" y1="675" x2="480" y2="675" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.7" />
+  <text x="400" y="715" text-anchor="middle" fill="#C6A15B" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="500" letter-spacing="3">CENDRIX CAPITAL • LEADERSHIP</text>
+  
+  <text x="400" y="770" text-anchor="middle" fill="#A1A8B3" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" letter-spacing="1.5">REPLACEABLE IMAGE SLOT</text>
+  <text x="400" y="796" text-anchor="middle" fill="#A1A8B3" font-family="'JetBrains Mono', monospace" font-size="11" opacity="0.65">Recommended: assets/images/founder.jpg (800 × 1000 px)</text>
+
+  <!-- Bottom Coordinates -->
+  <text x="50" y="940" fill="#A1A8B3" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="2" opacity="0.5">CENDRIX // PROPRIETARY MARKETS</text>
+  <text x="750" y="940" text-anchor="end" fill="#A1A8B3" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="2" opacity="0.5">PORTRAIT SPEC 4:5</text>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "name": "cendrix-capital",
+  "version": "1.0.0",
+  "description": "Cendrix Capital - Financial Markets Research & Proprietary Trading Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 3000",
+    "serve": "npx serve -l 3000 ."
+  },
+  "keywords": [
+    "cendrix-capital",
+    "proprietary-trading",
+    "forex",
+    "futures",
+    "finance"
+  ],
+  "author": "Cendrix Capital",
+  "license": "UNLICENSED"
+}

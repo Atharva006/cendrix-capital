@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <rect x="4" y="4" width="56" height="56" rx="8" fill="#10141C" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.3"/>
+  <!-- Continuous Feedback & Improvement Loop -->
+  <path d="M 32 18 A 14 14 0 1 1 20 25" stroke="#C6A15B" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Tangent Arrowhead -->
+  <polyline points="15,20 20,25 25,20" stroke="#C6A15B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Core Convergence Target -->
+  <circle cx="32" cy="32" r="5" stroke="#E2C889" stroke-width="1.2" stroke-opacity="0.8"/>
+  <circle cx="32" cy="32" r="1.5" fill="#E2C889"/>
+</svg>
